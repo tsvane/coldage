@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Coldage by Roosterlandia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        * {
+border: 1px solid red;
+
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            min-height: 100%;
+            
+            color: #000;
+            margin: 0;
+        }
+
+        body {
+            background: linear-gradient(155deg,
+                    rgba(255, 255, 255, 1) 10%,
+                    rgba(200, 173, 130, 1) 30%);
+        }
+
+        #background {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+            height: 50%;
+            width: 100%;
+
+            background-image: url("bg2.jpg");
+            background-repeat: no-repeat;
+            background-position: right 5em bottom;
+            background-size: contain;
+
+            z-index: -1;
+        }
+
+        #roosterlandia {
+            height: 120px;
+            width: auto;
+            margin: 25px 0 0 35px;
+        }
+
+        #content {
+            text-align: center;
+            width: calc(100% - 200px);
+
+        }
+
+        #coldage {
+            max-width: 450px;
+            height: auto;
+            margin: 0 1em 0 1em;
+        }
+
+        #steam {
+            max-width: 250px;
+            height: auto;
+            margin: 3em;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="roosterlandia" src="roosterlandia.png">
+    <div id="content">
+        <img id="coldage" src="coldage.png"><br />
+        <a href="https://store.steampowered.com/app/1680890/Coldage/">
+            <img id="steam" src="steam_black.png">
+        </a>
+    </div>
+    <div id="background"></div>
+</body>
+
+</html>
